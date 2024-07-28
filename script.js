@@ -55,7 +55,7 @@ var Game = {
         this.ai = Ai.new.call(this, 'right');
         this.ball = Ball.new.call(this);
 
-        this.ai.speed = 5;
+        this.ai.speed = 15;
         this.running = this.over = false;
         this.turn = this.ai;
         this.timer = this.round = 0;
