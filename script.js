@@ -35,7 +35,7 @@ var Ai = {
             y: (this.canvas.height / 2) - 35,
             score: 0,
             move: DIRECTION.IDLE,
-            speed: 15
+            speed: 20
         };
     }
 };
